@@ -56,23 +56,40 @@
 
 ## 📂 Table of Contents
 
-- [Overview](#-overview)
-- [What Makes It Stand Out](#-what-makes-it-stand-out)
-- [Tech Stack](#-tech-stack)
-- [Folder Structure](#-folder-structure)
-- [Getting Started](#-getting-started)
-- [Makefile Commands](#-makefile-commands)
-- [Pre-commit Hooks](#-pre-commit-hooks)
-- [Logging Middleware](#-logging-middleware)
-- [Configuration](#-configuration)
-- [Testing & Linting](#-testing--linting)
-- [Deployment](#-deployment)
-- [Monitoring with Prometheus & Grafana](#-monitoring-with-prometheus--grafana)
-- [Redis Caching](#-redis-caching)
-- [Docker Compose Setup](#-docker-compose-setup)
-- [Documentation](#-documentation)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [📂 Table of Contents](#-table-of-contents)
+- [📘 Overview](#-overview)
+- [🌟 What Makes It Stand Out](#-what-makes-it-stand-out)
+- [🧪 Tech Stack](#-tech-stack)
+- [🗂️ Folder Structure](#️-folder-structure)
+- [⚙️ Getting Started](#️-getting-started)
+  - [1. Clone \& Install Dependencies](#1-clone--install-dependencies)
+  - [2. Add a `.env` File](#2-add-a-env-file)
+- [🛠️ Makefile Commands](#️-makefile-commands)
+- [✅ Pre-commit Hooks](#-pre-commit-hooks)
+- [📊 Logging Middleware](#-logging-middleware)
+- [🔧 Configuration](#-configuration)
+- [🧪 Testing \& Linting](#-testing--linting)
+- [🚀 Deployment](#-deployment)
+  - [Docker Deployment:](#docker-deployment)
+- [📊 Monitoring with Prometheus \& Grafana](#-monitoring-with-prometheus--grafana)
+  - [🔧 Metrics Endpoint](#-metrics-endpoint)
+- [🐳 Docker Compose Setup](#-docker-compose-setup)
+  - [▶️ Usage](#️-usage)
+  - [📍 Port Mapping Overview](#-port-mapping-overview)
+  - [🔐 Grafana Credentials](#-grafana-credentials)
+  - [🗂️ Prometheus Configuration](#️-prometheus-configuration)
+- [🧠 Redis Caching](#-redis-caching)
+  - [✅ Features](#-features)
+  - [⚙️ Redis Cache Configuration](#️-redis-cache-configuration)
+  - [🛡️ Brute Force Protection Tip](#️-brute-force-protection-tip)
+  - [📦 Docker Redis Setup](#-docker-redis-setup)
+  - [⛔ To Stop Everything](#-to-stop-everything)
+- [📊 Langfuse Integration](#-langfuse-integration)
+  - [✅ Features](#-features-1)
+  - [⚙️ Setup Instructions](#️-setup-instructions)
+- [🧩 Documentation](#-documentation)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
@@ -492,7 +509,3 @@ You're welcome to contribute! Please:
 ## 📄 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
-
----
-
-[![Star History Chart](https://api.star-history.com/svg?repos=kevaldekivadiya2415/fastapi-genai-boilerplate&type=Date)](https://star-history.com/#kevaldekivadiya/fastapi-genai-boilerplate&Date)
