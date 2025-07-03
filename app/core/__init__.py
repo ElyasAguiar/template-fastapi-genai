@@ -1,0 +1,1 @@
+"""Initialize application core components."""
