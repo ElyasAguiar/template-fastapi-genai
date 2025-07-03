@@ -495,17 +495,6 @@ This boilerplate is compatible with [Langfuse](https://www.langfuse.com/) for ob
 - 📊 [Langfuse Integration Guide](docs/langfuse.md)
 ---
 
-## 🤝 Contributing
-
-You're welcome to contribute! Please:
-
-1. Fork this repo
-2. Create a new branch
-3. Ensure pre-commit and linters pass
-4. Open a PR with a clear description
-
----
-
 ## 📄 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
